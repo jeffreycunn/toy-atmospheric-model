@@ -1,6 +1,7 @@
 #########################################################################
 #  Physical and mathematical constants
 module constants
+include("user_settings.jl")
 
 g = 9.8;   # gravitational acceleration: m/s^2
 cp = 1004.0;  # specific heat at constant p: J/(kg K)
