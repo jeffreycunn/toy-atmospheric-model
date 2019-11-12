@@ -1,4 +1,5 @@
 ##  Miscellaneous User Settings
+module user_settings
 
 nz = 82; 	# The number of grid points in the vertical
 nx = 801;  # The number of grid points in the horizontal
@@ -70,4 +71,5 @@ elseif profile_method == 3
 # potential temp. at the tropopause (K), default is 343.0 K
  ttr = 345.0;
 
+end
 end
