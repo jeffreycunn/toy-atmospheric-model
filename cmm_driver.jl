@@ -1,9 +1,10 @@
 function CMM_driver(modeloutputpathandfilename,dtoutput)
 
+include("user_settings.jl")
 
 # Define User_Settings
 
-user_settings
+using user_settings
 
 # Define Constants
 
