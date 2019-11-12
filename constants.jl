@@ -1,5 +1,6 @@
 #########################################################################
 #  Physical and mathematical constants
+module constants
 
 g = 9.8;   # gravitational acceleration: m/s^2
 cp = 1004.0;  # specific heat at constant p: J/(kg K)
@@ -14,6 +15,8 @@ rhol = 1000.0; # Density of Rain drop (1000 kg/m^3)
 #########################################################################
 
 ## Initialize Variable Arrays
+nz = user_settings.nz;
+nx = user_settings.nx;
 
 zw = zeros(1,nz);
 zu = zeros(1,nz);
@@ -54,3 +57,5 @@ pim=zeros(nx,nz);
 pic=zeros(nx,nz);
 pip=zeros(nx,nz);
 pprt=zeros(nx,nz);
+
+end

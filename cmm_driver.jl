@@ -1,14 +1,14 @@
 function CMM_driver(modeloutputpathandfilename,dtoutput)
 
 include("user_settings.jl")
-
+#import Pkg.add("user_settings.jl")
 # Define User_Settings
 
-using user_settings
+#using user_settings
 
 # Define Constants
 
-constants
+include("constants.jl")
 
 # Define Grid
 
